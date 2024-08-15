@@ -20,4 +20,7 @@ export let espectaculos = [
     precio: 80000,
     img: "https://www.movistararena.com.ar/static/artistas/B3EF5_REIK_FileFotoFichaDesktop",
   },
-];
+
+  
+  
+]

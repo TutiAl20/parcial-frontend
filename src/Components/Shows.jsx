@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { espectaculos } from "../espectaculos";
 import Espectaculo from "./Espectaculo";
 import Form from "./Form";
+import Form1 from './Formulariomotos';
 
 const Shows = () => {
   const [selected, setSelected] = useState(null);
@@ -16,6 +17,9 @@ const Shows = () => {
           setSelected={setSelected}
         />
       ))}
+
+    <h1>Formulario Motos</h1>
+      <Form1 />
     </div>
   );
 };
